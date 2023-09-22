@@ -27,7 +27,7 @@ body {
     text-transform: uppercase;
     position: absolute;
     left: 120px;
-    top: 250px;
+    bottom: 300px;
 }
 
 .machine-speak {
@@ -36,7 +36,7 @@ body {
     text-transform: uppercase;
     position: absolute;
     right: 120px;
-    top: 250px;
+    bottom: 300px;
 }
 
 .sheldon-direita {
@@ -109,17 +109,18 @@ main {
 
 @media screen and (max-width: 1100px) {
 
-    .log {
+    .logo {
+        width: 120px;
         margin: 20px;
     }
 
     .human-speak {
-        top: 70%;
+        bottom: 29%;
         left: 10%;
     }
 
     .machine-speak {
-        top: 70%;
+        bottom: 29%;
         right: 10%;
     }
 
@@ -142,11 +143,11 @@ main {
     }
 
     .title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .buttons {
-        font-size: 35px;
+        font-size: 31px;
         margin: 20px 5px;
     }
 
