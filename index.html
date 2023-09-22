@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo ken po</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img class="logo" src="./assets/logo the big bang.png" alt="logo">
+    <p class="human-speak"></p>
+    <p class="machine-speak"></p>
+    <img class="sheldon-direita">
+    <img class="boneco-esquerda">
+    <main>
+        <h3 class="title">PEDRA | PAPEL | TESOURA | LAGARTO | SPOCK</h3>
+        <div class="buttonsContainer">
+            <button class="buttons" id="rock" onclick="humanChoice('pedra')">&#9994</button>
+            <button class="buttons" id="paper" onclick="humanChoice('papel')">&#9995</button>
+            <button class="buttons" id="scissors" onclick="humanChoice('tesoura')">&#9996</button>
+            <button class="buttons" id="lizard" onclick="humanChoice('lagarto')">&#129295</button>
+            <button class="buttons" id="spock" onclick="humanChoice('spock')">&#128406</button>
+        </div>
+        <h2 class="result"></h2>
+        <p>Sua Pontuação: <span id="humanPoints">0</span></p>
+        <p>Pontuação do Sheldon: <span id="machinePoints">0</span></p>
+    </main>
+
+
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
