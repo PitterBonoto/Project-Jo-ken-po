@@ -11,9 +11,9 @@
 <br>
 <br>
 
-<h5>O vídeo abaixo mostram a aplicação sendo executada, executando o jogo e imprimindo o resultado na tela bem como a reação dos avatares do usuário e do "Sheldon"(criador do jogo na série) como adversário.</h5>
+<h5>O vídeo abaixo mostram a aplicação executando o jogo e imprimindo o resultado na tela bem como a reação dos avatares do usuário e do "Sheldon"(criador do jogo na série) como adversário.</h5>
 <br>
 
-<img  src="">
+<img  src="https://github.com/PitterBonoto/Project-Jo-ken-po/blob/main/assets/gif-readme.gif?raw=true">
 
 
